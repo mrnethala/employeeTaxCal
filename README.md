@@ -1,5 +1,5 @@
 # employeeTaxCal
-#1. API endpoint to store employee details(Validate the data and throw the errors on invalid data)
+# 1. API endpoint to store employee details(Validate the data and throw the errors on invalid data)
 
  
 
@@ -21,11 +21,11 @@ Salary(per month)
 
  
 
-#2. API endpoint to return employees' tax deduction for the current financial year(April to March). API should return employee code, first name, last name, yearly salary, tax amount, cess amount.
+# 2. API endpoint to return employees' tax deduction for the current financial year(April to March). API should return employee code, first name, last name, yearly salary, tax amount, cess amount.
 
  
 
-Tax slabs on yearly salary:
+## Tax slabs on yearly salary:
 
 No Tax for <=250000
 
@@ -41,7 +41,7 @@ No Tax for <=250000
 
  
 
-#Rules:
+# Rules:
 
 Consider the DOJ while calculating total salary(If the employee joined on May 16th, we should not include April month salary and May month's 15 days salary in total salary)
 
@@ -49,7 +49,7 @@ Collect additional 2% cess for the amount more than 2500000 (ex: yearly salary i
 
   
 
-#Others:
+# Others:
 
 Total Salary: Salary * Number of months
 
